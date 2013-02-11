@@ -1,0 +1,26 @@
+div {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	display: block;
+}
+
+.branco {
+	background: white;
+}
+
+.preto{
+	background: black;
+}
+
+.capaceteBracosPesSunga {
+	background: #0070BE;
+}
+
+.troncoPernasOrelha {
+	background: #62C0E4;
+}
+
+.pele {
+	background: #FFE3A4;
+}
