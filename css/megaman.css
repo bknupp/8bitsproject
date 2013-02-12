@@ -5,6 +5,13 @@ div {
 	display: block;
 }
 
+img {
+	position: absolute;
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+}
+
 .branco {
 	background: white;
 }
@@ -13,11 +20,11 @@ div {
 	background: black;
 }
 
-.capaceteBracosPesSunga {
+.capacete {
 	background: #0070BE;
 }
 
-.troncoPernasOrelha {
+.tronco {
 	background: #62C0E4;
 }
 
