@@ -1,0 +1,39 @@
+.branco {
+	background: white;
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
+
+.preto{
+	background: black;
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
+
+.capacete {
+	background: #0171EF;
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
+
+.tronco {
+	background: #39BEFF;
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
+
+.pele {
+	background: #FFE7A5;
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
