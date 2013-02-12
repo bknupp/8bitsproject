@@ -14,8 +14,8 @@ function mudaCorGutsman() {
 }
 
 function mudaCorFireman() {
-	$('.capacete').css('background','#DAA520');
-	$('.tronco').css('background','#FFFAFA');
+	$('.capacete').css('background','#EE7F17');
+	$('.tronco').css('background','#EDF029');
 }
 
 function mudaCorIceman() {
