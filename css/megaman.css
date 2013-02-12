@@ -1,8 +1,16 @@
 div {
 	width: 30px;
-	height: 30px;
+	height: 30px !important;
 	position: relative;
 	display: block;
+}
+
+.barrauol-bg full{
+	display: none !important;
+}
+
+#barra-xpg {
+	display: none !important;
 }
 
 img {
