@@ -1,28 +1,33 @@
 function mudaCorCutman() {
-	$('.capacete').css('background','gray');
-	$('.tronco').css('background', 'silver');
+	$('.capacete').css('background','#646463');
+	$('.tronco').css('background', '#E6E6E6');
 }
 
 function mudaCorElecman() {
-	$('.capacete').css('background','#008B8B');
-	$('.tronco').css('background','#F0DC86');
+	$('.capacete').css('background','#555555');	
+	$('.tronco').css('background','#DEBB58');
 }
 
 function mudaCorGutsman() {
-	$('.capacete').css('background','#DAA520');
-	$('.tronco').css('background','#FFFAFA');
+	$('.capacete').css('background','#DD5509');
+	$('.tronco').css('background','#F1F1F1');
 }
 
 function mudaCorFireman() {
-	$('.capacete').css('background','#EE7F17');
-	$('.tronco').css('background','#EDF029');
+	$('.capacete').css('background','#D11C00');
+	$('.tronco').css('background','#E3A100');
 }
 
 function mudaCorIceman() {
-	$('.capacete').css('background','#DAA520');
-	$('.tronco').css('background','#FFFAFA');
+	$('.capacete').css('background','#0038DF');
+	$('.tronco').css('background','#E8E9E8');
 }
 function mudaCorBombman() {
-	$('.capacete').css('background','#DAA520');
-	$('.tronco').css('background','#FFFAFA');
+	$('.capacete').css('background','#00A500');
+	$('.tronco').css('background','#E5E5E5');
+}
+
+function mudaCorMegaman() {
+	$('.capacete').css('background','#0171EF');
+	$('.tronco').css('background','#39BEFF');
 }
