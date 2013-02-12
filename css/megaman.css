@@ -1,0 +1,41 @@
+div {
+	width: 30px;
+	height: 30px !important;
+	position: relative;
+	display: block;
+}
+
+.barrauol-bg full{
+	display: none !important;
+}
+
+#barra-xpg {
+	display: none !important;
+}
+
+img {
+	position: absolute;
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
+}
+
+.branco {
+	background: white;
+}
+
+.preto{
+	background: black;
+}
+
+.capacete {
+	background: #0171EF;
+}
+
+.tronco {
+	background: #39BEFF;
+}
+
+.pele {
+	background: #FFE7A5;
+}
