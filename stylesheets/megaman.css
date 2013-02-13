@@ -1,39 +1,101 @@
-.branco {
-	background: white;
-	width: 30px;
-	height: 30px !important;
+.blocosMegaman {
 	position: relative;
 	display: block;
+}
+
+.branco {
+	background: white;
 }
 
 .preto{
 	background: black;
-	width: 30px;
-	height: 30px !important;
-	position: relative;
-	display: block;
 }
 
 .capacete {
 	background: #0171EF;
-	width: 30px;
-	height: 30px !important;
-	position: relative;
-	display: block;
 }
 
 .tronco {
 	background: #39BEFF;
-	width: 30px;
-	height: 30px !important;
-	position: relative;
-	display: block;
 }
 
 .pele {
 	background: #FFE7A5;
+}
+
+.minimo {
 	width: 30px;
-	height: 30px !important;
-	position: relative;
-	display: block;
+	height: 30px;
+}
+
+.width60{
+	width: 60px;
+}
+
+.width90 {
+	width: 90px;
+}
+
+.width120 {
+	width: 120px;
+}
+
+.width150 {
+	width: 150px;
+}
+
+.width180 {
+	width: 180px;
+}
+
+.width210 {
+	width: 210px;
+}
+
+.width240 {
+	width: 240px;
+}
+
+.width270 {
+	width: 270px;
+}
+
+.left30 {
+	left:30px;
+}
+
+.left60 {
+	left:60px;
+}
+
+.left90 {
+	left:90px;
+}
+
+.left120 {
+	left:120px;
+}
+
+.left150 {
+	left:150px;
+}
+
+.left180 {	
+	left:180px;
+}
+
+.left210 {
+	left:210px;
+}
+
+.left240 {
+	left:240px;
+}
+
+.left270 {
+	left:270px;
+}
+
+.left300 {
+	left:300px;
 }
