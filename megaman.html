@@ -34,7 +34,17 @@
 █▓▓▓▓▓▓▓█░░░█▓▓▓▓▓▓▓█
 █████████░░░█████████ -->
 <body>
-	
+	<!--
+	Mudar cor dinamicamente
+	-->
+	<div id="cores_dinamicas">
+		Digite a cor desejada para o corpo:<input type="text" id="cor_capacete"/><br/>
+		Digite a cor desejada para o tronco:<input type="text" id="cor_tronco"/><br/>
+		<button type="button" onclick='mudaCorDinamico($("#cor_capacete").val(), $("#cor_tronco").val())'>Mudar cor!</button>	
+	</div>
+	<!--("#username").text()
+	Mudar cor dinamicamente
+	-->
 	<div class="blocosMegaman minimo preto left300 width90"></div>
 	
 	<div class="blocosMegaman minimo preto left240 width90">
