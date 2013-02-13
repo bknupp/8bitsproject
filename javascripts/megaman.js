@@ -31,3 +31,8 @@ function mudaCorMegaman() {
 	$('.capacete').css('background','#0171EF');
 	$('.tronco').css('background','#39BEFF');
 }
+/*Mudar cor dinamicamente*/
+function mudaCorDinamico(cor_capacete, cor_tronco) {
+	$('.capacete').css('background',cor_capacete);
+	$('.tronco').css('background', cor_tronco);
+}

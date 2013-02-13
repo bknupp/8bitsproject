@@ -34,7 +34,17 @@
 █▓▓▓▓▓▓▓█░░░█▓▓▓▓▓▓▓█
 █████████░░░█████████ -->
 <body>
-	
+	<!--
+	Mudar cor dinamicamente
+	-->
+	<div id="cores_dinamicas">
+		Digite a cor desejada para o corpo:<input type="text" id="cor_capacete"/><br/>
+		Digite a cor desejada para o tronco:<input type="text" id="cor_tronco"/><br/>
+		<button type="button" onclick='mudaCorDinamico($("#cor_capacete").val(), $("#cor_tronco").val())'>Mudar cor!</button>	
+	</div>
+	<!--("#username").text()
+	Mudar cor dinamicamente
+	-->
 	<div class="preto" style="left:300px; width: 90px"></div>
 	
 	<div class="preto" style="left:240px; width: 90px">
@@ -270,6 +280,5 @@
 	<a onclick="mudaCorMegaman()">
 		<img src="images/quadrado.png" style="cursor:pointer; position:absolute; width:58px; height:58px; top:458px; right: 399px; opacity:0"/>
 	</a>
-	
 </body>
 </html>
