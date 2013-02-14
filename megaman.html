@@ -39,218 +39,621 @@
 	-->
 	<div id="cores_dinamicas">
 		Digite a cor desejada para o corpo:<input type="text" id="cor_capacete"/><br/>
-		Digite a cor desejada para o tronco:<input type="text" id="cor_tronco"/><br/>
+		Digite a cor desejada para o tronco ted:<input type="text" id="cor_tronco"/><br/>
 		<button type="button" onclick='mudaCorDinamico($("#cor_capacete").val(), $("#cor_tronco").val())'>Mudar cor!</button>	
 	</div>
 
+	<div id="tamanho_dinamico">
+		Digite o tamanho:<input type="text" id="tamanho"/><br/>
+		<button type="button" onclick='mudaTamanhoDinamico($("#tamanho").val())'>Mudar tamanho!</button>	
+	</div>
+
+	
 	<!--("#username").text()
 	Mudar cor dinamicamente
 	-->
-	<div class="blocosMegaman minimo preto left300 width90"></div>
-	
-	<div class="blocosMegaman minimo preto left240 width90">
-		<div class="blocosMegaman minimo tronco left90 width60">
-		<div class="blocosMegaman minimo preto left60"></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left210">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo preto left90">
-		<div class="blocosMegaman minimo tronco left30 width60">
-		<div class="blocosMegaman minimo preto left60"></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left180">
-		<div class="blocosMegaman minimo capacete left30 width150">
-		<div class="blocosMegaman minimo preto left150 width120"></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left180">
-		<div class="blocosMegaman minimo capacete left30 width150">
-		<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30 width60">
-		<div class="blocosMegaman minimo capacete left60">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30">
-		<div class="blocosMegaman minimo capacete left30 width180">
-		<div class="blocosMegaman minimo preto left180 width60">
-		<div class="blocosMegaman minimo capacete left60">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30">
-		<div class="blocosMegaman minimo capacete left30 width60">
-		<div class="blocosMegaman minimo pele left60">
-		<div class="blocosMegaman minimo branco left30 width90">
-		<div class="blocosMegaman minimo capacete left90 width60">
-		<div class="blocosMegaman minimo branco left60">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30">
-		<div class="blocosMegaman minimo capacete left30">
-		<div class="blocosMegaman minimo pele left30">
-		<div class="blocosMegaman minimo branco left30 width60">
-		<div class="blocosMegaman minimo preto left60 width60">
-		<div class="blocosMegaman minimo pele left60">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo branco left30">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left180">
-		<div class="blocosMegaman minimo capacete left30">
-		<div class="blocosMegaman minimo pele left30">
-		<div class="blocosMegaman minimo branco left30 width60">
-		<div class="blocosMegaman minimo preto left60 width60">
-		<div class="blocosMegaman minimo pele left60">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo branco left30">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left150 width60">
-		<div class="blocosMegaman minimo capacete left60 width60">
-		<div class="blocosMegaman minimo pele left60">
-		<div class="blocosMegaman minimo branco left30 width90">
-		<div class="blocosMegaman minimo pele left90">
-		<div class="blocosMegaman minimo branco left30 width60">
-		<div class="blocosMegaman minimo preto left60"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left90 width60">
-		<div class="blocosMegaman minimo tronco left60 width60">
-		<div class="blocosMegaman minimo preto left60">
-		<div class="blocosMegaman minimo capacete left30">
-		<div class="blocosMegaman minimo pele left30">
-		<div class="blocosMegaman minimo preto left30 width120">
-		<div class="blocosMegaman minimo pele left120">
-		<div class="blocosMegaman minimo preto left30 width90"></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left60">
-		<div class="blocosMegaman minimo capacete left30">
-		<div class="blocosMegaman minimo tronco left30 width120">
-		<div class="blocosMegaman minimo preto left120">
-		<div class="blocosMegaman minimo pele left30 width150">
-		<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30 width60">
-		<div class="blocosMegaman minimo capacete left60">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left60">
-		<div class="blocosMegaman minimo capacete left30 width60">
-		<div class="blocosMegaman minimo tronco left60 width120">
-		<div class="blocosMegaman minimo preto left120 width150">
-		<div class="blocosMegaman minimo tronco left150 width60">
-		<div class="blocosMegaman minimo capacete left60 width60">
-		<div class="blocosMegaman minimo preto left60"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo tronco left90">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo tronco left30 width210">
-		<div class="blocosMegaman minimo preto left210">
-		<div class="blocosMegaman minimo tronco left30">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo preto left90"></div></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo capacete left30 width60">
-		<div class="blocosMegaman minimo preto left60 width90">
-		<div class="blocosMegaman minimo tronco left90 width210">
-		<div class="blocosMegaman minimo preto left210 width90">
-		<div class="blocosMegaman minimo capacete left90 width60">
-		<div class="blocosMegaman minimo preto left60"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo preto left90 width60">
-		<div class="blocosMegaman minimo tronco left60 width210">
-		<div class="blocosMegaman minimo preto left210 width60">
-		<div class="blocosMegaman minimo capacete left60 width90">
-		<div class="blocosMegaman minimo preto left90"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo preto left90 width60">
-		<div class="blocosMegaman minimo capacete left60 width210">
-		<div class="blocosMegaman minimo preto left210 width60">
-		<div class="blocosMegaman minimo capacete left60 width90">
-		<div class="blocosMegaman minimo preto left90"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo branco left30">
-		<div class="blocosMegaman minimo preto left30 width90">
-		<div class="blocosMegaman minimo branco left90">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo capacete left30 width210">
-		<div class="blocosMegaman minimo preto left210">
-		<div class="blocosMegaman minimo branco left30">
-		<div class="blocosMegaman minimo preto left30 width90"></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo tronco left30 width60">
-		<div class="blocosMegaman minimo capacete left60 width120">
-		<div class="blocosMegaman minimo tronco left120 width90">
-		<div class="blocosMegaman minimo preto left90"></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left120">
-		<div class="blocosMegaman minimo capacete left30 width60">
-		<div class="blocosMegaman minimo tronco left60 width90">
-		<div class="blocosMegaman minimo preto left90">
-		<div class="blocosMegaman minimo tronco left30 width120">
-		<div class="blocosMegaman minimo capacete left120">
-		<div class="blocosMegaman minimo preto left30"></div></div></div></div></div></div>
-	</div>
-
-	<div class="blocosMegaman minimo preto left90 width60">
-		<div class="blocosMegaman minimo capacete left60 width90">
-		<div class="blocosMegaman minimo tronco left90">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo branco left30">
-		<div class="blocosMegaman minimo preto left30">
-		<div class="blocosMegaman minimo tronco left30">
-		<div class="blocosMegaman minimo capacete left30 width90">
-		<div class="blocosMegaman minimo preto left90 width60"></div></div></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto left30 width60">
-		<div class="blocosMegaman minimo capacete left60 width150">
-		<div class="blocosMegaman minimo preto left150">
-		<div class="blocosMegaman minimo branco left30 width90">
-		<div class="blocosMegaman minimo preto left90">
-		<div class="blocosMegaman minimo capacete left30 width150">
-		<div class="blocosMegaman minimo preto left150 width60"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto">
-		<div class="blocosMegaman minimo capacete left30 width210">
-		<div class="blocosMegaman minimo preto left210">
-		<div class="blocosMegaman minimo branco left30 width90">
-		<div class="blocosMegaman minimo preto left90">
-		<div class="blocosMegaman minimo capacete left30 width210">
-		<div class="blocosMegaman minimo preto left210"></div></div></div></div></div></div>
-	</div>
-	
-	<div class="blocosMegaman minimo preto width270">
-		<div class="blocosMegaman minimo branco left270 width90">
-		<div class="blocosMegaman minimo preto left90">
-		<div class="blocosMegaman minimo preto width270"></div></div></div>
-	</div>
+<table cellspacing="0" border="0">
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted ted"></td>
+			<td class="preto ted ted"></td>
+			<td class="preto ted ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td ></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="pele"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="pele"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="pele"></td>
+			<td class="preto ted"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="pele"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="pele"></td>
+			<td class="preto ted"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="pele"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="pele"></td>
+			<td class="branco"></td>
+			<td class="branco"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="pele"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="pele"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="pele"></td>
+			<td class="pele"></td>
+			<td class="pele"></td>
+			<td class="pele"></td>
+			<td class="pele"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="tronco ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="tronco ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="capacete ted"></td>
+			<td class="preto ted"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+			<td class="preto ted"></td>
+		</tr>
+	</table>
 	
 	<img src="images/select.png" style="cursor:auto; position:absolute; width:256px; height:224px; top:380px; right:300px"/>
 	
@@ -281,11 +684,13 @@
 	<a onclick="mudaCorMegaman()">
 		<img src="images/quadrado.png" style="cursor:pointer; position:absolute; width58px; height:58px; top:458px; right:399px; opacity:0"/>
 	</a>
+	
+	<embed src="images/mega.mp3"
+       autostart="true"
+       hidden="true"
+       loop="true">
+	</embed>
 
-	<form id="target">
-		<input type="text" />
-		<input type="submit" value="Go" />
-	</form>
 	
 </body>
 </html>
